@@ -1,4 +1,4 @@
-# ✍️ Air MNIST: Reconocimiento Automático de Números en el Aire
+# ✍️ Air Drawing MNIST: Reconocimiento Automático de Números dibujados en el Aire
 
 
 

@@ -1,4 +1,4 @@
-# ✍️ Air Drawing MNIST: Reconocimiento Automático de Números dibujados en el Aire
+# ✍️ AANDR: Reconocimiento Automático de Números dibujados en el Aire
 
 
 
@@ -16,7 +16,7 @@
 
 ## 🚀 Descripción / Propósito
 
-**Air MNIST** es un sistema de visión artificial interactivo que permite a los usuarios dibujar números (del 0 al 9) en el aire utilizando únicamente su dedo índice apuntando a una cámara web.
+**AirNumberDrawingRecognition** es un sistema de visión artificial interactivo que permite a los usuarios dibujar números (del 0 al 9) en el aire utilizando únicamente su dedo índice apuntando a una cámara web.
 
 El propósito principal es demostrar la integración fluida entre algoritmos de seguimiento de puntos de referencia de la mano (*Hand Tracking*) en tiempo real y redes neuronales convolucionales (CNN) especializadas en clasificación de imágenes. Es la evolución natural del clásico dataset MNIST llevado a un entorno dinámico y *contactless*.
 
@@ -27,13 +27,9 @@ El propósito principal es demostrar la integración fluida entre algoritmos de 
 
 
 | Dominio | Tecnología | Propósito |
-
 |---------|:-----------|:----------|
-
 | **Frontend / Visión** | **OpenCV** & **MediaPipe** | Captura de vídeo, seguimiento de la mano (21 landmarks) y renderizado HUD superpuesto. |
-
 | **IA / Deep Learning** | **TensorFlow** & **Keras** | Inferencia del modelo de red neuronal (clasificador de dígitos de 10 clases). |
-
 | **Data / Numérico** | **NumPy** | Manipulación de matrices, normalización del ROI (Region of Interest) y preprocesamiento matemático. |
 
 
@@ -142,7 +138,7 @@ Los archivos de entrenamiento e inferencia se encuentran en la raíz del proyect
 
 **Paso 1: Generar el modelo de IA**
 
-Dado que el archivo de pesos no fue subido al control de versiones, primero debes instanciar y entrenar la red neuronal localmente.
+Si no tienes el archivo de pesos, primero debes instanciar y entrenar la red neuronal localmente.
 
 ```bash
 
